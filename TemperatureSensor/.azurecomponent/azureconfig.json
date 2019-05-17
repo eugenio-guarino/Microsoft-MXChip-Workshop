@@ -1,0 +1,35 @@
+{
+    "componentConfigs": [
+        {
+            "id": "ea62b8bc-7f43-a2b7-6c3c-d5532af03dc2",
+            "folder": "",
+            "name": "",
+            "dependencies": [],
+            "type": "IoTHub",
+            "componentInfo": {
+                "values": {
+                    "iotHubConnectionString": "HostName=GinosTemperatureSensorPlymouth2019.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=KpGw0qZfwFKUnKGQVw5qu98wYJHvskwfpkFOQ61vECE=",
+                    "eventHubConnectionString": "Endpoint=sb://ihsuprodlnres003dednamespace.servicebus.windows.net/;SharedAccessKeyName=iothubowner;SharedAccessKey=KpGw0qZfwFKUnKGQVw5qu98wYJHvskwfpkFOQ61vECE=",
+                    "eventHubConnectionPath": "iothub-ehub-ginostempe-1651895-044c0c2e37"
+                }
+            }
+        },
+        {
+            "id": "bd806885-551e-7e7f-6718-ca1bb1fea884",
+            "folder": "Functions",
+            "name": "",
+            "dependencies": [
+                {
+                    "id": "ea62b8bc-7f43-a2b7-6c3c-d5532af03dc2",
+                    "type": 1
+                }
+            ],
+            "type": "AzureFunctions",
+            "componentInfo": {
+                "values": {
+                    "functionLanguage": "JavaScript"
+                }
+            }
+        }
+    ]
+}
