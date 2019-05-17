@@ -1,6 +1,6 @@
 #include <Arduino.h>
-#line 1 "c:\\Users\\Eugen\\Desktop\\Iot stuff\\TemperatureSensor\\Device\\device.ino"
-#line 1 "c:\\Users\\Eugen\\Desktop\\Iot stuff\\TemperatureSensor\\Device\\device.ino"
+#line 1 "c:\\Users\\Eugen\\Desktop\\Microsoft-MXChip-Workshop\\TemperatureSensor\\Device\\device.ino"
+#line 1 "c:\\Users\\Eugen\\Desktop\\Microsoft-MXChip-Workshop\\TemperatureSensor\\Device\\device.ino"
 #include "AZ3166WiFi.h"
 #include "DevKitMQTTClient.h"
 #include "Sensor.h"
@@ -11,17 +11,17 @@ RGB_LED rgbLed;
 
 static float temperatureThreshold = 25.0;
 
-#line 11 "c:\\Users\\Eugen\\Desktop\\Iot stuff\\TemperatureSensor\\Device\\device.ino"
+#line 11 "c:\\Users\\Eugen\\Desktop\\Microsoft-MXChip-Workshop\\TemperatureSensor\\Device\\device.ino"
 void initSensor();
-#line 17 "c:\\Users\\Eugen\\Desktop\\Iot stuff\\TemperatureSensor\\Device\\device.ino"
+#line 17 "c:\\Users\\Eugen\\Desktop\\Microsoft-MXChip-Workshop\\TemperatureSensor\\Device\\device.ino"
 float getSensorData();
-#line 34 "c:\\Users\\Eugen\\Desktop\\Iot stuff\\TemperatureSensor\\Device\\device.ino"
+#line 34 "c:\\Users\\Eugen\\Desktop\\Microsoft-MXChip-Workshop\\TemperatureSensor\\Device\\device.ino"
 void sendData(const char *data);
-#line 48 "c:\\Users\\Eugen\\Desktop\\Iot stuff\\TemperatureSensor\\Device\\device.ino"
+#line 48 "c:\\Users\\Eugen\\Desktop\\Microsoft-MXChip-Workshop\\TemperatureSensor\\Device\\device.ino"
 void setup();
-#line 54 "c:\\Users\\Eugen\\Desktop\\Iot stuff\\TemperatureSensor\\Device\\device.ino"
+#line 54 "c:\\Users\\Eugen\\Desktop\\Microsoft-MXChip-Workshop\\TemperatureSensor\\Device\\device.ino"
 void loop();
-#line 11 "c:\\Users\\Eugen\\Desktop\\Iot stuff\\TemperatureSensor\\Device\\device.ino"
+#line 11 "c:\\Users\\Eugen\\Desktop\\Microsoft-MXChip-Workshop\\TemperatureSensor\\Device\\device.ino"
 void initSensor() {
   ext_i2c = new DevI2C(D14, D15);
   ht_sensor = new HTS221Sensor(*ext_i2c);

@@ -10,22 +10,22 @@
     "Includepath": "C:\\Users\\Eugen\\AppData\\Local\\Arduino15\\packages\\AZ3166\\hardware\\stm32f4\\1.6.2\\variants\\MXChip_AZ3166"
   },
   {
-    "Sourcefile": "c:\\Users\\Eugen\\Desktop\\Iot stuff\\TemperatureSensor\\Device\\.build\\sketch\\device.ino.cpp",
+    "Sourcefile": "c:\\Users\\Eugen\\Desktop\\Microsoft-MXChip-Workshop\\TemperatureSensor\\Device\\.build\\sketch\\device.ino.cpp",
     "Include": "AZ3166WiFi.h",
     "Includepath": "C:\\Users\\Eugen\\AppData\\Local\\Arduino15\\packages\\AZ3166\\hardware\\stm32f4\\1.6.2\\libraries\\WiFi\\src"
   },
   {
-    "Sourcefile": "c:\\Users\\Eugen\\Desktop\\Iot stuff\\TemperatureSensor\\Device\\.build\\sketch\\device.ino.cpp",
+    "Sourcefile": "c:\\Users\\Eugen\\Desktop\\Microsoft-MXChip-Workshop\\TemperatureSensor\\Device\\.build\\sketch\\device.ino.cpp",
     "Include": "DevKitMQTTClient.h",
     "Includepath": "C:\\Users\\Eugen\\AppData\\Local\\Arduino15\\packages\\AZ3166\\hardware\\stm32f4\\1.6.2\\libraries\\AzureIoT\\src"
   },
   {
-    "Sourcefile": "c:\\Users\\Eugen\\Desktop\\Iot stuff\\TemperatureSensor\\Device\\.build\\sketch\\device.ino.cpp",
+    "Sourcefile": "c:\\Users\\Eugen\\Desktop\\Microsoft-MXChip-Workshop\\TemperatureSensor\\Device\\.build\\sketch\\device.ino.cpp",
     "Include": "Sensor.h",
     "Includepath": "C:\\Users\\Eugen\\AppData\\Local\\Arduino15\\packages\\AZ3166\\hardware\\stm32f4\\1.6.2\\libraries\\Sensors\\src"
   },
   {
-    "Sourcefile": "c:\\Users\\Eugen\\Desktop\\Iot stuff\\TemperatureSensor\\Device\\.build\\sketch\\device.ino.cpp",
+    "Sourcefile": "c:\\Users\\Eugen\\Desktop\\Microsoft-MXChip-Workshop\\TemperatureSensor\\Device\\.build\\sketch\\device.ino.cpp",
     "Include": "",
     "Includepath": ""
   },

@@ -1,4 +1,4 @@
-c:\Users\Eugen\Desktop\Iot\ stuff\TemperatureSensor\Device\.build\libraries\Sensors\IoT_DevKit_HW.cpp.o: \
+c:\Users\Eugen\Desktop\Microsoft-MXChip-Workshop\TemperatureSensor\Device\.build\libraries\Sensors\IoT_DevKit_HW.cpp.o: \
  C:\Users\Eugen\AppData\Local\Arduino15\packages\AZ3166\hardware\stm32f4\1.6.2\libraries\Sensors\src\IoT_DevKit_HW.cpp \
  C:\Users\Eugen\AppData\Local\Arduino15\packages\AZ3166\hardware\stm32f4\1.6.2\system/mbed_config.h \
  C:\Users\Eugen\AppData\Local\Arduino15\packages\AZ3166\hardware\stm32f4\1.6.2\cores\arduino/Arduino.h \

@@ -1,8 +1,8 @@
-# 1 "c:\\Users\\Eugen\\Desktop\\Iot stuff\\TemperatureSensor\\Device\\device.ino"
-# 1 "c:\\Users\\Eugen\\Desktop\\Iot stuff\\TemperatureSensor\\Device\\device.ino"
-# 2 "c:\\Users\\Eugen\\Desktop\\Iot stuff\\TemperatureSensor\\Device\\device.ino" 2
-# 3 "c:\\Users\\Eugen\\Desktop\\Iot stuff\\TemperatureSensor\\Device\\device.ino" 2
-# 4 "c:\\Users\\Eugen\\Desktop\\Iot stuff\\TemperatureSensor\\Device\\device.ino" 2
+# 1 "c:\\Users\\Eugen\\Desktop\\Microsoft-MXChip-Workshop\\TemperatureSensor\\Device\\device.ino"
+# 1 "c:\\Users\\Eugen\\Desktop\\Microsoft-MXChip-Workshop\\TemperatureSensor\\Device\\device.ino"
+# 2 "c:\\Users\\Eugen\\Desktop\\Microsoft-MXChip-Workshop\\TemperatureSensor\\Device\\device.ino" 2
+# 3 "c:\\Users\\Eugen\\Desktop\\Microsoft-MXChip-Workshop\\TemperatureSensor\\Device\\device.ino" 2
+# 4 "c:\\Users\\Eugen\\Desktop\\Microsoft-MXChip-Workshop\\TemperatureSensor\\Device\\device.ino" 2
 
 DevI2C *ext_i2c;
 HTS221Sensor *ht_sensor;
@@ -14,9 +14,9 @@ void initSensor() {
   ext_i2c = new DevI2C(D14, D15);
   ht_sensor = new HTS221Sensor(*ext_i2c);
   ht_sensor->init(
-# 14 "c:\\Users\\Eugen\\Desktop\\Iot stuff\\TemperatureSensor\\Device\\device.ino" 3 4
+# 14 "c:\\Users\\Eugen\\Desktop\\Microsoft-MXChip-Workshop\\TemperatureSensor\\Device\\device.ino" 3 4
                  __null
-# 14 "c:\\Users\\Eugen\\Desktop\\Iot stuff\\TemperatureSensor\\Device\\device.ino"
+# 14 "c:\\Users\\Eugen\\Desktop\\Microsoft-MXChip-Workshop\\TemperatureSensor\\Device\\device.ino"
                      );
 }
 
@@ -39,9 +39,9 @@ float getSensorData() {
 
 void sendData(const char *data) {
   time_t t = time(
-# 35 "c:\\Users\\Eugen\\Desktop\\Iot stuff\\TemperatureSensor\\Device\\device.ino" 3 4
+# 35 "c:\\Users\\Eugen\\Desktop\\Microsoft-MXChip-Workshop\\TemperatureSensor\\Device\\device.ino" 3 4
                  __null
-# 35 "c:\\Users\\Eugen\\Desktop\\Iot stuff\\TemperatureSensor\\Device\\device.ino"
+# 35 "c:\\Users\\Eugen\\Desktop\\Microsoft-MXChip-Workshop\\TemperatureSensor\\Device\\device.ino"
                      );
   char buf[sizeof "2011-10-08T07:07:09Z"];
   strftime(buf, sizeof buf, "%FT%TZ", gmtime(&t));
